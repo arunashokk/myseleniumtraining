@@ -5,13 +5,8 @@
 	<listener class-name ="com.app.pages.AnnotationTransformer" />
 	</listeners>
   <test thread-count="5" name="Test">
-  	<groups>
-  		<run>
-  			<include name = "Sanity" />
-  		</run>
-  	</groups>
     <classes>
-      <class name ="com.app.tests.HomePageTests"/>
+      <class name ="com.app.tests.FailureTestCase"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
